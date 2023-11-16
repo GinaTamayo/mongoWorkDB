@@ -5,22 +5,162 @@ db.products.drop() // elimina los documentos creados en la colleccion anteriorme
 db.products.insertMany([
   {
     _id: 1,
-    name: "Prodcut 1",
-    price: 100
+    name: "Collar para perro",
+    price: 15.99,
+    description: "Collar ajustable para perros de todos los tamaños",
+    category: "Accesorios",
+    image: "enlace de la imagen"
   },
   {
     _id: 2,
-    name: "Prodcut 2",
-    price: 20
+    name: "Juguete interactivo para gatos",
+    price: 9.99,
+    description: "Juguete con plumas y campanas para mantener entretenido a tu gato",
+    category: "Juguetes",
+    image: "enlace de la imagen"
   },
   {
     _id: 3,
-    name: "Prodcut 3",
-    price: 120
+    name: "Comedero automático para mascotas",
+    price: 34.50,
+    description: "Dispensador automático de comida para perros y gatos",
+    category: "Alimentación",
+    image: "enlace de la imagen"
   },
   {
     _id: 4,
-    name: "Prodcut 4",
-    price: 120
+    name: "Cama acolchada para perro",
+    price: 29.99,
+    description: "Cama suave y cómoda para que tu perro descanse",
+    category: "Descanso",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 5,
+    name: "Chaqueta impermeable para perro",
+    price: 18.75,
+    description: "Chaqueta resistente al agua para proteger a tu perro en días lluviosos",
+    category: "Ropa",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 6,
+    name: "Arena aglomerante para gatos",
+    price: 12.99,
+    description: "Arena de calidad superior que forma grumos para facilitar la limpieza de la caja de arena",
+    category: "Aseo",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 7,
+    name: "Cepillo para pelo de mascotas",
+    price: 8.50,
+    description: "Cepillo suave para desenredar y eliminar el pelo suelto de tu mascota",
+    category: "Cuidado personal",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 8,
+    name: "Juguete masticable para perro",
+    price: 6.99,
+    description: "Juguete duradero para satisfacer las necesidades de masticación de tu perro",
+    category: "Juguetes",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 9,
+    name: "Snacks saludables para gatos",
+    price: 5.25,
+    description: "Snacks con ingredientes naturales y nutritivos para tu gato",
+    category: "Alimentación",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 10,
+    name: "Caja de transporte para mascotas",
+    price: 39.99,
+    description: "Caja resistente y cómoda para transportar a tu mascota de manera segura",
+    category: "Accesorios",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 11,
+    name: "Correa retráctil para perro",
+    price: 14.95,
+    description: "Correa extensible para paseos cómodos con tu perro",
+    category: "Accesorios",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 12,
+    name: "Shampoo hipoalergénico para perros",
+    price: 11.50,
+    description: "Shampoo suave que no irrita la piel, ideal para perros con piel sensible",
+    category: "Cuidado personal",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 13,
+    name: "Caja de arena autolimpiante",
+    price: 59.99,
+    description: "Caja de arena que se limpia automáticamente, facilitando el mantenimiento",
+    category: "Aseo",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 14,
+    name: "Bol de comida elevado para gatos",
+    price: 22.99,
+    description: "Bol ergonómico para gatos que promueve una postura saludable durante las comidas",
+    category: "Alimentación",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 15,
+    name: "Rascador para gatos",
+    price: 28.75,
+    description: "Rascador resistente con áreas de juego para mantener entretenidos a los gatos",
+    category: "Juguetes",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 16,
+    name: "Camiseta con estampado divertido para perro",
+    price: 16.99,
+    description: "Camiseta cómoda y con estilo para tu perro",
+    category: "Ropa",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 17,
+    name: "Cama termoeléctrica para reptiles",
+    price: 45.50,
+    description: "Cama que proporciona calor para reptiles que necesitan una fuente adicional de calor",
+    category: "Descanso",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 18,
+    name: "Juguete para pájaros",
+    price: 7.99,
+    description: "Juguete interactivo para mantener entretenidos a los pájaros en jaulas",
+    category: "Juguetes",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 19,
+    name: "Arnés y correa para conejos",
+    price: 19.25,
+    description: "Arnés ajustable para conejos que permite paseos seguros al aire libre",
+    category: "Accesorios",
+    image: "enlace de la imagen"
+  },
+  {
+    _id: 20,
+    name: "Comida para Perros Adultos",
+    price: 25.50,
+    description: "Fórmula equilibrada con ingredientes naturales para perros adultos de todas las razas.",
+    category: "Alimentos",
+    image: "enlace de la imagen"
   }
 ])
