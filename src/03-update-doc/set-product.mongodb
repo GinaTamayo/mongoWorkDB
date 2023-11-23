@@ -1,28 +1,96 @@
 use("pet_store")
 
-const update = [
-    {_id: 1, price: 16.00},
-    {_id: 2, price: 10.00},
-    {_id: 3, price: 35.00},
-    {_id: 4, price: 30.00},
-    {_id: 5, price: 19.00},
-    {_id: 6, price: 13.00},
-    {_id: 7, price: 9.00},
-    {_id: 8, price: 7.00 },
-    {_id: 9, price: 6.00},
-    {_id: 10, price: 40.00}
-]
 
-update.forEach((updateData) => {
-    db.products.updateOne(
-        {_id:updateData._id},
-        {
-            $set: {
-                price: updateData.price,
-            },
+db.products.updateOne(
+    {_id: 1},
+    {
+        $set: {
+            price: 16.00,
         }
-    );
-});
+    }
+);
+
+db.products.updateOne(
+    {_id: 2},
+    {
+        $set: {
+            price: 10.00,
+        }
+    }
+);
+
+db.products.updateOne(
+    {_id: 3},
+    {
+        $set: {
+            price: 35.00,       
+        }
+    }
+);
+
+db.products.updateOne(
+    {_id: 4},
+    {
+        $set: {
+            price: 30.00,    
+        }
+    }
+);
+
+db.products.updateOne(
+    {_id: 5},
+    {
+        $set: {
+            price: 19.00,      
+        }
+    }
+);
+
+db.products.updateOne(
+    {_id: 6},
+    {
+        $set: {
+            price: 13.00,    
+        }
+    }
+);
+
+db.products.updateOne(
+    {_id: 7},
+    {
+        $set: {
+            price: 9.00        
+        }
+    }
+);
+
+db.products.updateOne(
+    {_id: 8},
+    {
+        $set: {
+            price: 7.00,       
+        }
+    }
+);
+
+db.products.updateOne(
+    {_id: 9},
+    {
+        $set: {
+            price: 6.00,        
+        }
+    }
+);
+
+db.products.updateOne(
+    {_id: 10},
+    {
+        $set: {
+            price: 40.00,      
+        }
+    }
+);
+
 
 
 
