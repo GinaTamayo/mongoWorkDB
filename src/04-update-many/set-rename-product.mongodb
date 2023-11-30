@@ -1,0 +1,12 @@
+use("pet_store")
+
+db.products.updateMany(
+    // query
+    { category: "Juguetes" },
+    // update - operators
+    {
+      $rename: {
+        "description": "specification"
+      }
+    }
+ )
